@@ -1,0 +1,49 @@
+=== Objetos
+
+[source,javascript]
+.Clojure/Lambda.
+----
+
+----
+
+
+[source,javascript]
+----
+{
+  id:"51b14c2de8e185801f000006",
+  nombre:"Hendrix",
+  instrumento:"Guitarra",
+  tocarSolo: function(tiempo){
+    console.log("Solooooooooooooooooo");
+  }
+}
+----
+
+
+==== if
+
+==== while
+
+==== for
+
+[source,javascript]
+.Ejemplo de for.
+----
+var guitarristas = ["hendrix","slash","pass"];
+
+for(var i = 0; i < guitarristas.length ;i++){
+  var guitarrista = guitarristas[i];
+  console.log(guitarrista);
+}
+----
+
+[source,javascript]
+.Ejemplo de for.
+----
+var guitarristas = ["hendrix","slash","pass"];
+
+for( index in guitarristas){
+  var guitarrista = guitarristas[index];
+  console.log(guitarrista);
+}
+----

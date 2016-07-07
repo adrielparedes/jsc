@@ -1,0 +1,13 @@
+== Introducción a JavaScript
+
+include::tipos.adoc[]
+
+include::variables.adoc[]
+
+include::funciones.adoc[]
+
+include::objetos.adoc[]
+
+=== Prototipo
+
+=== Exceptions

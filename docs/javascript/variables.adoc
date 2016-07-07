@@ -1,0 +1,7 @@
+=== Variables
+
+[source,javascript]
+----
+var x; // define la variable x, aunque no tiene ningún valor asignado por defecto
+var y = 2; // define la variable y y le asigna el valor 2 a ella
+----

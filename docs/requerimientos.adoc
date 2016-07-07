@@ -1,0 +1,4 @@
+== Requerimientos
+
+* NodeJS v4.4.7 LTS (https://nodejs.org/en/)
+* Cuenta de FeedHenry: https://openshift.feedhenry.com/

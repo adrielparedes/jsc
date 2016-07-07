@@ -1,0 +1,39 @@
+=== Funciones
+
+[source,javascript]
+.Función básica.
+----
+function(parametro){
+  ...
+}
+----
+
+[source,javascript]
+.Función asignada a una variable.
+----
+var saludar = function(parametro){
+  console.log("Hola "+parametro+"!");
+}
+----
+
+[source,javascript]
+.Named function.
+----
+function saludar(parametro){
+  console.log("Hola "+parametro+"!");
+}
+----
+
+[source,javascript]
+.Clojure/Lambda.
+----
+var suma = function(x){
+  return function(y){
+    return x + y;
+  }
+}
+
+var resultado = suma(1)(2)
+
+console.log(resultado);
+----

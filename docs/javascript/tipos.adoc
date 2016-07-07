@@ -1,0 +1,103 @@
+=== Tipos
+
+==== String
+
+[source,javascript]
+----
+var guitarrista = "Hendrix";
+var guitarrista = 'Pass';
+
+guitarrista.length;
+guitarrista.indexOf("P");
+guitarrista.repeat(4);
+guitarrista.toUpperCase();
+
+"Jimmi" + " Hendrix";
+"Jimmi" + " Hendrix " + 1000;
+
+"Jimmi" + " Hendrix " + true;
+
+true + ! + "Jimmi" + " Hendrix ";
+
+!"a";
+!+"a";
+
+var a = new String("Hendrix");
+----
+
+
+==== Number
+
+[source,javascript]
+----
+var resultado = 1 + 2;
+console.log(resultado);
+----
+
+[source,javascript]
+----
+var x = new Number(1);
+var resultado = x + 1
+console.log(resultado);
+----
+
+[source,javascript]
+----
+!1  // false
+!0  // true
+----
+
+==== List
+
+==== JSON
+
+[source,javascript]
+----
+{
+  id:"51b14c2de8e185801f000006",
+  nombre:"Hendrix",
+  instrumento:"Guitarra",
+  tocarSolo: function(tiempo){
+    console.log("Solooooooooooooooooo");
+  }
+}
+----
+
+[source,javascript]
+----
+0.1+0.2==0.3
+----
+
+==== Boolean
+
+[source,javascript]
+----
+true && false
+true || false
+----
+
+[source,javascript]
+----
+'' == '0'           // false
+0 == ''             // true
+0 == '0'            // true
+
+false == 'false'    // false
+false == '0'        // true
+
+false == undefined  // false
+false == null       // false
+null == undefined   // true
+
+' \t\r\n ' == 0     // true
+
+!true               // false
+
+true+true===2       // true
+
+true-true===0       // true
+
+true===1            // false
+
+(!+[]+[]+![])       // 'truefalse'
+----
